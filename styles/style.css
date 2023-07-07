@@ -5,7 +5,7 @@
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding-left: 150px;
+    
     
 }
 nav>ul{
@@ -45,7 +45,16 @@ nav li{
     color: white;
     padding: 18px 35px;
 }
-/* Header styles */
+/* Header/ banner styles */
 .header{
     background-color: #FFF8F3;
+    padding: 30px 30px 30px 150px ;
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner .profile-img{
+    height: 100%;
+    width: 500px;
 }

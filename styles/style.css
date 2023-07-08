@@ -16,9 +16,7 @@
     background: #FD6E0A;
     font-family: Open Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     color: white;
     padding: 18px 35px;
 }
@@ -201,7 +199,8 @@ main {
     font-weight: 700;
 
 }
-.resume-container{
+
+.resume-container {
     margin-top: 120px;
 
 }
@@ -221,6 +220,54 @@ main {
 .education-details {
     margin: 0 0;
 }
-.education{
+
+.education {
     padding-right: 50px;
+}
+
+
+/* footer style start */
+
+footer {
+    display: flex;
+    text-align: left;
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px;
+    justify-content: space-between;
+}
+
+.connect {}
+
+.messages {
+    /* display: inline; */
+
+}
+
+.msg {
+    border-radius: 5px;
+    background: #FFF;
+    width: 461px;
+    height: 50 px;
+    padding: 18px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+#msg {
+    /* height: 180px; */
+    padding: 18px;
+}
+
+.connectmsg {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 150px;
+    margin-bottom: 30px;
+}
+.links{
+    display: inline;
+    margin-right: 20px;
 }

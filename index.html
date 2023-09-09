@@ -18,24 +18,29 @@
 
 <body>
     <header class="header">
-        <nav class="nav-bar">
+        <nav class="nav-bar flex-col lg:flex-row">
             <h3 class="nav-title">Isr<span class="a">a</span>fil</h3>
-            <ul class="nav-link">
+            <ul class="nav-link flex flex-col lg:flex-row gap-4 justify-items-center text-center">
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">Blog</a></li>
-                <button class="common-btn">Hire Me</button>
+                <button class="btn btn-primary w-1/2 bg-[#FD6E0A] text-white border-none">Hire Me</button>
             </ul>
         </nav>
-        <div class="banner">
-            <div>
+        <div class="banner flex-col md:flex-row p-6 rounded-xl gap-4">
+            <div class="my-4">
                 <h3 class="banner-greeting">Hi, I am</h3>
-                <h1 class="banner-title">Md Israfil Mia</h1>
-                <p class="description banner-des">Shot what able cold new see hold.Friendly as an betrayed formerly he.
+                <h1 class="text-6xl font-extrabold">AHM Israfil</h1>
+                <p class="my-4">Shot what able cold new see hold.Friendly as an betrayed formerly
+                    he.
                     Morning because as to society behaved moments.</p>
-                <button class="common-btn">Download CV</button>
-                <button class="common-btn contact-btn">Contact</button>
+                <div class="flex justify-items-center flex-col md:flex-row gap-4">
+                    <button class="btn btn-primary w-1/2 bg-[#FD6E0A] text-white border-none">Download CV</button>
+                    <button class="btn btn-primary w-1/2 bg-transparent text-black border-[#fd6e0a]">Contact</button>
+                </div>
             </div>
-            <img class="profile-img" src="images/israfil.png" alt="">
+            <div >
+            <img class="profile-img border-8 border-[#ffff] rounded-full " src="images/israfil.png" alt="">
+            </div>
         </div>
     </header>
     <main>

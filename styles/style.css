@@ -48,7 +48,7 @@ nav>ul>li>a {
 }
 
 .nav-title {
-    font-size: 45px;
+    font-size: 4rem;
     font-weight: 800;
 }
 
@@ -90,6 +90,7 @@ nav li {
 .banner .profile-img {
     height: 100%;
     width: 500px;
+    margin-bottom: -24px;
 }
 
 .banner-greeting {
@@ -112,7 +113,7 @@ nav li {
 }
 
 .contact-btn {
-    margin-left: 30px;
+    margin-left: 0px;
     background-color: transparent;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
